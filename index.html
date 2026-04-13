@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Adobong Manok | The Ultimate Filipino Comfort Food</title>
+    <!-- Google Fonts + Font Awesome -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">Adobong<span>Manok</span></div>
+            <div class="hamburger" id="hamburgerIcon">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#features">Why Adobo?</a></li>
+                <li><a href="#newsletter-block">Get Recipe</a></li>
+                <li><a href="#footer">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<main>
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-content">
+            <h1>Adobong Manok.<br>Sabaw, Sarsa, Sarap.</h1>
+            <p>Authentic Filipino Chicken Adobo — slow-braised in vinegar, soy, garlic, and love. The national dish that tastes like home.</p>
+            <div class="btn-group">
+                <button class="btn-primary" id="buyNowBtn">🍗 Order Now – $12.99</button>
+                <button class="btn-secondary" id="discoverBtn">Secret Recipe</button>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="https://images.unsplash.com/photo-1588166524941-3bf61a9c34db?w=800&auto=format" alt="Authentic Chicken Adobo with rice" loading="eager">
+        </div>
+    </section>
+
+    <!-- Features Section – Why Adobo is unique -->
+    <section id="features" class="features-section">
+        <div class="container">
+            <h2 class="section-title">Bakit Adobong Manok? <i class="fas fa-heart" style="color:#c0392b;"></i></h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-drumstick-bite"></i></div>
+                    <h3>Tender & Juicy</h3>
+                    <p>Chicken slow-cooked until fall-off-the-bone, infused with tangy-savory adobo sauce.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-pepper-hot"></i></div>
+                    <h3>Perfect Balance</h3>
+                    <p>Vinegar, soy sauce, garlic, bay leaves, and black pepper — a timeless flavor symphony.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-clock"></i></div>
+                    <h3>One-Pot Wonder</h3>
+                    <p>Easy to prepare, even better the next day. Freezes like a dream.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-utensils"></i></div>
+                    <h3>Pair with Rice</h3>
+                    <p>Best enjoyed with steaming white rice. Spoon that glorious sauce over everything.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Newsletter: Get Free Recipe eBook -->
+    <section id="newsletter-block" class="container">
+        <div class="newsletter">
+            <h2><i class="fas fa-envelope-open-text"></i> Get Our Secret Family Recipe</h2>
+            <p>Subscribe and receive a free digital cookbook with 5 adobo variations (chicken, pork, squid, vegan, spicy!).</p>
+            <div class="subscribe-form" id="subscribeForm">
+                <input type="email" id="subEmail" placeholder="Your email address" required>
+                <button id="subscribeBtn">Send Recipe →</button>
+            </div>
+            <div id="subscribeMessage" class="subscribe-message"></div>
+        </div>
+    </section>
+</main>
+
+<footer id="footer">
+    <div class="footer-container">
+        <div class="copyright">
+            <i class="far fa-copyright"></i> 2025 Adobong Manok Collective | Luto natin 'to.
+        </div>
+        <div class="social-icons">
+            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+        </div>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
