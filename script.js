@@ -85,7 +85,7 @@
 
     if (buyBtn) {
         buyBtn.addEventListener('click', () => {
-            alert('🍽️ You’ve added Adobong Manok to your cart! Estimated delivery: 30-45 min (Manila time) 🤤');
+            alert('🍽️ You’ve added Adobong Manok ni Elois to your cart! Estimated delivery: 30-45 min (Manila time) 🤤');
         });
     }
 
